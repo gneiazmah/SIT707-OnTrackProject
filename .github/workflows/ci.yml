@@ -15,6 +15,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
+        distribution: 'adopt' # See 'Supported distributions' for more options
         java-version: '11'
     - name: Build with Maven
       run: mvn clean install
