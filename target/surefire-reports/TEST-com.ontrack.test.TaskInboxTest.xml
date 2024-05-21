@@ -1,63 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontrack.test.TaskInboxTest" time="0.083" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontrack.test.TaskInboxTest" time="0.003" tests="2" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="17"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\hp\eclipse-workspace\OnTrackProject\target\test-classes;C:\Users\hp\eclipse-workspace\OnTrackProject\target\classes;C:\Users\hp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\hp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\hp\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\hp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\hp\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
-    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.arch.data.model" value="32"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Users\hp\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire5067373218579371069\surefirebooter11214447415021681019.jar C:\Users\hp\AppData\Local\Temp\surefire5067373218579371069 2024-05-21T22-06-21_029-jvmRun1 surefire16552012410419165043tmp surefire_07239493454536463896tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire17434563606624623839\surefirebooter31869744593784603.jar C:\Users\hp\AppData\Local\Temp\surefire17434563606624623839 2024-05-21T23-33-21_426-jvmRun1 surefire13949037628344221535tmp surefire_010466727155761650374tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\hp\eclipse-workspace\OnTrackProject\target\test-classes;C:\Users\hp\eclipse-workspace\OnTrackProject\target\classes;C:\Users\hp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\hp\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\hp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\hp\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\hp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\hp\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hp"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2023-04-18"/>
-    <property name="java.home" value="C:\Users\hp\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files (x86)\Eclipse Adoptium\jdk-11.0.23.9-hotspot"/>
     <property name="file.separator" value="\"/>
     <property name="style.color" value="always"/>
     <property name="basedir" value="C:\Users\hp\eclipse-workspace\OnTrackProject"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire5067373218579371069\surefirebooter11214447415021681019.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire17434563606624623839\surefirebooter31869744593784603.jar"/>
     <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.7+7"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="11.0.23+9"/>
     <property name="user.name" value="hp"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.7+7"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.23+9"/>
     <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.7"/>
+    <property name="java.version" value="11.0.23"/>
     <property name="user.dir" value="C:\Users\hp\eclipse-workspace\OnTrackProject"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="os.arch" value="x86"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\hp\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/hp/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/hp/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files (x86)\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SDKs\Azure\CLI2;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Local\GitHubDesktop\bin;C:\Users\hp\AppData\Roaming\npm;C:\WINDOWS\System32;;."/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/hp/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/hp/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files (x86)\Eclipse Adoptium\jdk-11.0.23.9-hotspot\bin;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SDKs\Azure\CLI2;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Local\GitHubDesktop\bin;C:\Users\hp\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.7+7"/>
+    <property name="java.vm.version" value="11.0.23+9"/>
+    <property name="java.specification.maintenance.version" value="2"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testViewTaskDetails" classname="com.ontrack.test.TaskInboxTest" time="0.08"/>
+  <testcase name="testViewTaskDetails" classname="com.ontrack.test.TaskInboxTest" time="0.001"/>
   <testcase name="testGetTaskInbox" classname="com.ontrack.test.TaskInboxTest" time="0"/>
 </testsuite>
